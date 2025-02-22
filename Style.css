@@ -110,7 +110,7 @@ p1 {
 header nav ul {
     list-style: none;
     background-color: rgb(98, 70, 14);
-    padding: 2px;
+    padding: 1px;
     text-align: center;
 }
 header nav ul li {

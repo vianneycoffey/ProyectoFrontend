@@ -26,6 +26,16 @@ nav{
     left: 0;
     z-index: 100;
     
+@media (max-width: 768px) {
+    nav {
+        height: auto; /* Permite que el contenido se acomode sin desbordar */
+        padding: 15px 0;
+    }
+
+    .content {
+        padding-top: 120px; /* Asegura que el h1 no quede tapado */
+    }
+}    
 
 }
 .menu{
